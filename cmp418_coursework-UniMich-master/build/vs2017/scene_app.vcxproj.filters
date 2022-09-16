@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\3D Mesh">
+      <UniqueIdentifier>{2077d46f-19cf-4c5c-85b7-1796dffb5b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D Bones">
+      <UniqueIdentifier>{6df8e176-baa0-470e-bcd3-859fbd45dd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D Sprite">
+      <UniqueIdentifier>{110ecdfe-31b8-4308-a371-9cc0ade3c773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Mesh">
+      <UniqueIdentifier>{159c7520-e3e9-406d-ba92-026da26b82c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D Bone">
+      <UniqueIdentifier>{13afc990-7ddb-45fe-8e68-a2418decee0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D Sprite">
+      <UniqueIdentifier>{e916ab03-8207-432a-ad02-7d9f9691ede4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3D Mesh\BlendTree">
+      <UniqueIdentifier>{1ec7fc78-b3c5-4e10-b22d-50fac8981d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D Mesh\BlendTree">
+      <UniqueIdentifier>{e41bf20b-e56d-41a9-b09e-d078982b2c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IK">
+      <UniqueIdentifier>{428e0040-a2ae-4578-9534-393fc48d2a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IK">
+      <UniqueIdentifier>{93514030-e36a-4924-b711-292646b48b44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main_d3d11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main_vita.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\load_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\load_json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationData.cpp">
+      <Filter>Source Files\3D Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimManager.cpp">
+      <Filter>Source Files\3D Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData3D.cpp">
+      <Filter>Source Files\3D Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\motion_clip_player.cpp">
+      <Filter>Source Files\3D Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim_2D.cpp">
+      <Filter>Source Files\2D Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin.cpp">
+      <Filter>Source Files\2D Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAtlas.cpp">
+      <Filter>Source Files\2D Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="SubTextureStruct.cpp">
+      <Filter>Source Files\2D Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputNode.cpp">
+      <Filter>Source Files\3D Mesh\BlendTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendTree.cpp">
+      <Filter>Source Files\3D Mesh\BlendTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendNode.cpp">
+      <Filter>Source Files\3D Mesh\BlendTree</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipNode.cpp">
+      <Filter>Source Files\3D Mesh\BlendTree</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearBlendNode.cpp">
+      <Filter>Source Files\3D Mesh\BlendTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendTreeManager.cpp">
+      <Filter>Source Files\3D Mesh\BlendTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ccd.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\picking.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_builder.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_renderer.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vertex_colour_unlit_shader.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAtlasSpriteSheet.cpp">
+      <Filter>Source Files\2D Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="IKManager.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\scene_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\load_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\load_json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim_2D.h">
+      <Filter>Header Files\2D Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationData.h">
+      <Filter>Header Files\3D Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDataStruct.h">
+      <Filter>Header Files\3D Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimManager.h">
+      <Filter>Header Files\3D Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData3D.h">
+      <Filter>Header Files\3D Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\motion_clip_player.h">
+      <Filter>Header Files\3D Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>Header Files\2D Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="SubTextureStruct.h">
+      <Filter>Header Files\2D Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlas.h">
+      <Filter>Header Files\2D Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimKeys.h">
+      <Filter>Header Files\2D Bones</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendNode.h">
+      <Filter>Header Files\3D Mesh\BlendTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendTree.h">
+      <Filter>Header Files\3D Mesh\BlendTree</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputNode.h">
+      <Filter>Header Files\3D Mesh\BlendTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipNode.h">
+      <Filter>Header Files\3D Mesh\BlendTree</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearBlendNode.h">
+      <Filter>Header Files\3D Mesh\BlendTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendTreeManager.h">
+      <Filter>Header Files\3D Mesh\BlendTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneStructs.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ccd.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\picking.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitive_builder.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitive_renderer.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vertex_colour_unlit_shader.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="SubTexDataSprite.h">
+      <Filter>Header Files\2D Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlasSpriteSheet.h">
+      <Filter>Header Files\2D Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="IKManager.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+This was a module completed during my University studies that focused on building on top of the Abertay University GEF framework to build an animation system.
+THe goal was to be able to real animation data from JSON files for predetermined 3D models and 2D sprite sheets and correctly animatye and render them.
+Lastly we also had to implement an inverse kinematic system for the 3D models.
